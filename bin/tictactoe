@@ -10,19 +10,20 @@ def start
   Enter 1 for one player (think you can beat our AI?)
   Enter 2 for two players (who will come out victorious?)"
   
-  game_mode = gets.strip
+  choice = gets.strip
 
-  if game_mode == "0"
+  if choice == "0"
     Game.new(Players::Computer.new("X"), Players::Computer.new("O")).play
     
-  elsif game_mode == "1"
+  elsif choice == "1"
     Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new).play
     
-  elsif game_mode == "2"
+  elsif choice == "2"
     Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
     
   else 
     puts "Invalid input"
+    
   end
     
   
