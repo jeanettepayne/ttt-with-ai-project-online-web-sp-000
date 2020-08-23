@@ -1,8 +1,17 @@
 module Players
   class Computer < Player
-    attr_reader :cells
     
     
+def move(board)
+  #center position
+  if !board.taken?("5")
+    "5"
+  else
+    computer_move(board)
+  end
+end
+
+
     
     
     
