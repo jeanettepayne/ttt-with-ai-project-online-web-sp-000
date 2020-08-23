@@ -25,7 +25,8 @@ def corner(board)
   if !board.taken?("1")
     "1"
   elsif 
-end 
+end !board.taken?("3")
+ 
 
 def middle_corner(board)
 end
