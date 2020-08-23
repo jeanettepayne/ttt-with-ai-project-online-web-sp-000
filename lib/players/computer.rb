@@ -28,7 +28,11 @@ def corner(board)
     !board.taken?("3")
     "3"
   elsif 
-    
+    !board.taken?("7")
+    "7"
+  elsif 
+    !board.taken?("9")
+    "9"
 end 
  
 
