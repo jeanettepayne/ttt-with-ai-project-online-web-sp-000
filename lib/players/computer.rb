@@ -1,6 +1,7 @@
 module Players
   class Computer < Player
     attr_accessor :cells
+    attr_reader :board
     
 def move(board)
   #center position
