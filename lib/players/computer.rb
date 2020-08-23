@@ -37,6 +37,7 @@ end
  
 
 def middle_corner(board)
+  
 end
     
     
