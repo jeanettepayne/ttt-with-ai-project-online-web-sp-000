@@ -37,7 +37,17 @@ end
  
 
 def middle_corner(board)
-  
+  if !board.taken?("1")
+    "1"
+  elsif 
+    !board.taken?("3")
+    "3"
+  elsif 
+    !board.taken?("7")
+    "7"
+  elsif 
+    !board.taken?("9")
+    "9"
 end
     
     
