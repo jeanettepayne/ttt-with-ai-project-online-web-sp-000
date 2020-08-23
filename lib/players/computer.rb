@@ -25,13 +25,13 @@ end
 
 def corner(board)
   if !board.taken?("1")
-    puts "1"
+    "1"
   elsif !board.taken?("3")
-    puts "3"
+    "3"
   elsif !board.taken?("7")
-    puts "7"
+    "7"
   elsif !board.taken?("9")
-    puts "9"
+    "9"
   end
 end 
  
