@@ -61,9 +61,12 @@ class Game
   
     if @board.valid_move?(input)
       @board.update(input, current_player)
+      @board.display
     else
-      puts "Please enter a number, 1-9:"
+      # puts "Invalid input. Please enter a number, 1-9:"
+      # @board.display
       turn
+      @board.display
     end
   end
   
