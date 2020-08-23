@@ -6,7 +6,7 @@ module Players
 def move(board)
   #center position
   if !board.taken?("5")
-    puts "5"
+    "5"
   else
     computer_move(board)
   end
