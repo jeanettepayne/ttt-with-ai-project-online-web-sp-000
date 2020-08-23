@@ -7,7 +7,7 @@ module Players
     
 def move(board)
   #center position
-  binding.pry
+  # binding.pry
   if !board.taken?("5")
     "5"
   else
