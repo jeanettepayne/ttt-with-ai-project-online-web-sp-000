@@ -22,6 +22,9 @@ def block(board)
 end
 
 def corner(board)
+  if !board.taken?("1")
+    "1"
+  elsif 
 end
 
 def middle_corner(board)
