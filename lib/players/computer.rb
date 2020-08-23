@@ -4,7 +4,7 @@ module Players
     
 def move(board)
   #center position
-  if !board.taken?("#{board.cells[4]}")
+  if !board.taken?("5")
     "5"
   else
     computer_move(board)
