@@ -1,5 +1,6 @@
 module Players
   class Computer < Player
+    attr_accessor :cells
     
    def move(board)
       if board.cells[4] == " "
