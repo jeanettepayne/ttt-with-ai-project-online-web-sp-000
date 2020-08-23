@@ -7,7 +7,6 @@ def move(board)
   #center position
   if !board.taken?("5")
     puts "5"
-    break
   else
     computer_move(board)
   end
