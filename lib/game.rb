@@ -1,3 +1,5 @@
+require 'pry'
+
 class Game 
   
   attr_accessor :board, :player_1, :player_2
@@ -57,6 +59,7 @@ class Game
   
   def turn
     puts "Please enter a number, 1-9:"
+    binding.pry
     input = current_player.move(input)
   
     if @board.valid_move?(input)
