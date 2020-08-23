@@ -16,10 +16,10 @@ def start
     Game.new(Players::Computer.new("X"), Players::Computer.new("O")).play
     
   elsif choice == "1"
-    Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new).play
+    Game.new(Players::Human.new("X"), Players::Computer.new("O")).play
     
   elsif choice == "2"
-    Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
+    Game.new(Players::Human.new("X"), Players::Human.new("O")).play
     
   else 
     puts "Invalid input"
