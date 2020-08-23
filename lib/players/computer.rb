@@ -34,6 +34,7 @@ def corner(board)
   elsif 
     !board.taken?("9")
     "9"
+  end
 end 
  
 
@@ -49,6 +50,7 @@ def middle_corner(board)
   elsif 
     !board.taken?("8")
     "8"
+  end
 end
     
     
