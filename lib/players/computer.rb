@@ -11,7 +11,21 @@ def move(board)
   end
 end
 
+def computer_move(board)
+  win_move(board) || block(board) || corner(board) || middle_corner(board)
+end
 
+def win_move(board)
+end
+
+def block(board)
+end
+
+def corner(board)
+end
+
+def middle_corner(board)
+end
     
     
     
